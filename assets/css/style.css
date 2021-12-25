@@ -422,7 +422,7 @@ Monde
 }
 @media screen and (max-width: 900px) {
 	.world{
-		padding: 5vh;
+		padding: 20px;
 	}
 	.world-text {
 		text-align: left;

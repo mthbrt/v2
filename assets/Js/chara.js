@@ -16,7 +16,7 @@
 				document.getElementById("image").src = 'assets/img/chara/perso2.png';
 				document.getElementById("illustration").src = 'assets/img/chara/illustration2.png';
 				name_.innerHTML = "Roronoa Zoro";
-				nickname.innerHTML = "Zoro le chasseur de pirates";
+				nickname.innerHTML = "Chasseur de pirates";
 				height.innerHTML = "?? cm/?? kg";
 				birthday.innerHTML = "Anniversaire : ??/??/??";
 			}

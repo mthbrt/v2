@@ -38,6 +38,7 @@ Loader
 	min-height: 100vh;
 	width: 100%;
 	background-color: #11101d;
+        z-index: 4;
 }
 .loader h2{
 	position: relative;
@@ -85,7 +86,7 @@ Haut de page
     align-items: center;
     background-color: #1d1b31;
     color: white;
-	padding: 0 1rem;
+    padding: 0 1rem;
 }
 
 .brand-title {

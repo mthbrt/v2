@@ -22,7 +22,7 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  z-index: 2;
+  z-index: 1;
   background:linear-gradient(#f0f0f0,#fff);
 }
 /*
@@ -38,6 +38,7 @@ Loader
 	min-height: 100vh;
 	width: 100%;
 	background-color: #11101d;
+	z-index: 5;
 }
 .loader h2{
 	position: relative;
@@ -86,6 +87,7 @@ Haut de page
     background-color: #1d1b31;
     color: white;
 	padding: 0 1rem;
+	z-index: 4;
 }
 
 .brand-title {
@@ -780,7 +782,7 @@ scroll up
 }
 #scrollUp {
     position: fixed;
-    z-index: 5;
+    z-index: 4;
     background: #1d1b31;
     height: 50px;
     width: 50px;

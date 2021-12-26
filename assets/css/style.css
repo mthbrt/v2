@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
 /*
 
 Style de base
@@ -31,15 +31,13 @@ Loader
 	
 */
 .loader{
-        position: absolute;
-        position : fixed ;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	width: 100%;
 	background-color: #11101d;
-        z-index: 5;
 }
 .loader h2{
 	position: relative;
@@ -87,7 +85,7 @@ Haut de page
     align-items: center;
     background-color: #1d1b31;
     color: white;
-    padding: 0 1rem;
+	padding: 0 1rem;
 }
 
 .brand-title {
@@ -180,10 +178,10 @@ Haut de page
 	color: #fff;
 	text-shadow: 2px 2px 15px black;
 }
-.head-text h2{
+.head-text h3{
 	font-size: 4.5em;
 }
-.head-text h3{
+.head-text h4{
 	font-size: 3em;
 }
 .download{
@@ -423,11 +421,15 @@ Monde
 	font-size: 1.5em
 }
 @media screen and (max-width: 900px) {
-	.world{
+	.part3{
 		padding: 5vh;
 	}
 	.world-text {
+		text-align: left;
 		width: 100%;
+		height: 100%;
+		color: #fff;
+		text-shadow: 1px 1px 25px black;
 	}
 	.world-text h4{
 		font-size: 1.5em
@@ -447,7 +449,7 @@ Partie Lightnovel
 .head-lightnovel{
 	padding: 3rem;
 }
-.head-lightnovel h2{
+.head-lightnovel h3{
 	font-size: 2em;
 	color: #1d1b31;
 }
